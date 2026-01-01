@@ -22,7 +22,7 @@ export default async function handler(req, res) {
       customer: customer.id,
       items: [
         {
-          price: "price_XXXXXXXXXXXX", // <-- replace this
+          price: "price_1Sih3YELCSEmD9SiaiKG67Kv", // <-- replace this
         },
       ],
       payment_behavior: "default_incomplete",
