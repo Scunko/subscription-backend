@@ -54,7 +54,7 @@
   </div>
 
   <script>
-    const stripe = Stripe("pk_TEST_KEY_HERE"); // public key ONLY
+    const stripe = Stripe("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"); // public key ONLY
     const elements = stripe.elements();
     const card = elements.create("card");
     card.mount("#card-element");
